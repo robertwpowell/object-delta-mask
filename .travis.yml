@@ -3,6 +3,3 @@ install:
 language: node_js
 node_js:
   - 'stable'
-script: {
-  test: node_modules/jasmine-node/bin/jasmine-node dist --verbose
-}
