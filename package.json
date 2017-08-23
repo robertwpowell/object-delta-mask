@@ -1,0 +1,74 @@
+{
+  "name": "object-delta-mask",
+  "version": "0.0.3",
+  "description": "Create a string mask of changed property values by comparing two objects for use with grpc patch",
+  "license": "MIT",
+  "keywords": [
+    "mask",
+    "grpc",
+    "compare",
+    "patch",
+    "delta",
+    "diff",
+    "difference"
+  ],
+  "author": "Robert Powell <rpowell10@yahoo.com>",
+  "contributors": [],
+  "files": [
+    "index.js",
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robertwpowell/object-delta-mask.git"
+  },
+  "main": "./index.js",
+  "module": "./index.js",
+  "directories": {
+    "distribution": "./dist"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-help": "^1.6.1",
+    "gulp-if": "^2.0.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-inject-string": "^1.1.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-order": "^1.1.1",
+    "gulp-print": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sequence": "^0.4.5",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-tsconfig-files": "^0.4.0",
+    "gulp-tslint": "^4.3.0",
+    "gulp-typescript": "^2.13.4",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.6",
+    "jasmine-core": "^2.4.1",
+    "jasmine-node": "^1.14.5",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-systemjs": "^0.16.0",
+    "karma-typescript-preprocessor": "^0.3.1",
+    "path": "^0.12.7",
+    "tslint": "^3.2.1",
+    "tslint-stylish": "^2.1.0-beta",
+    "typescript": "^1.7.5",
+    "watchify": "^3.7.0",
+    "yargs": "^3.31.0"
+  },
+  "scripts": {
+    "compile": "gulp build",
+    "test": "node node_modules/jasmine-node/bin/jasmine-node dist --verbose",
+    "oldtest": "gulp test"
+  }
+}
